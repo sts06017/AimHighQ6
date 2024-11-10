@@ -10,12 +10,21 @@
     <img src="images/Q6_1.png" alt="문제 이미지">
     <img src="images/Q6_2.png">
     <p></p>
+    <p>「오늘이 휴일이라고 치자
+        어제가 휴일이 아니었다면 내일은 휴일이고,
+        휴일이었다면 내일은 출근일이야. 
+        그럼 이번에는 오늘이 출근일이라고 치자.
+        그저께가 출근일이 아니었다면 내일은 출근일이고,
+        출근일이었다면 내일은 휴일이야.」
+
+        그럼 1년을 365일로 잡았을 때 이 회사의 출근일은 총 며칠일까?
+        일요일, 공휴일은 생각하지 않기로 한다.</p>
     <input type="text" id="answer" placeholder="정답을 입력하세요">
     <button onclick="checkAnswer()">제출</button>
     <script>
         function checkAnswer() {
             var answer = document.getElementById('answer').value.trim();
-            if (answer === '6') { // 정답을 '6'로 설정
+            if (answer === '219') { // 정답을 '6'로 설정
                 window.location.href = 'QB6cCtU.html';
             } else {
                 alert('틀렸습니다. 다시 시도해보세요.');
